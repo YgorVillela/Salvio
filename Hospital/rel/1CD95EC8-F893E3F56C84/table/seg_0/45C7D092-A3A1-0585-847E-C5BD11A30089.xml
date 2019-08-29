@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45C7D092-A3A1-0585-847E-C5BD11A30089" name="T_HOSPITAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>35D118A5-BECC-9871-9618-D852B9E98713</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_hospital" id="9DB04B79-2824-6A7A-84E2-87CFA8D9C0CA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>64B0FEBA-2E50-A31B-6B72-B778EE8909CF</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_hospital" id="7EA6C5D7-5DE6-8620-71BC-2A924546A068">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>CBE917E2-FB65-BE6F-E532-018131CAAAB8</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="5816BAC3-003E-4CBB-FDFC-E57E6CC5E0C6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>DEED51DA-5296-AB89-66D5-2532535756A9</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="3449B849-B6B7-461E-42C5-B781F0EB7AB9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>BE0720DE-A5CB-43FA-9A1C-D35301F6C404</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bairro" id="3A9D4CBA-8334-4A77-7485-3B0EE9166330">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>5F6D63DE-A568-35BA-008D-E4950017D89E</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_adquirida" id="0BFD84D0-BF7C-4773-4743-2633D962D204">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>21819E7A-D4D4-772A-143D-373598ED71C9</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D083ED2-8E9F-B141-B93E-D54F6C8E6104" name="T_HOSPITAL_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>FF290BE2-0497-980C-E136-EA67D82685EF</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DB04B79-2824-6A7A-84E2-87CFA8D9C0CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

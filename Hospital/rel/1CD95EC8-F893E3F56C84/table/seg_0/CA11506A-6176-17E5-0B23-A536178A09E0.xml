@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA11506A-6176-17E5-0B23-A536178A09E0" name="T_FORNECEDOR">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>7A246E9A-749C-E4EA-5BA1-511682E92C1B</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_fornecedor" id="8FEBF4E4-35D7-5D95-C443-4456E6DAF1C2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>EC217AF3-2E8D-48CF-E629-C77A2D44FCC2</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnpj" id="56C4EC05-CEA6-E55B-DED0-9EF959BC8FDC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>9D60CAAD-7314-E155-A751-740E7DF9ED29</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_fornecedor" id="D908001C-29EC-C680-8890-1A5CE71FF11E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>6B0C00FB-52D2-0767-D9DB-88EADC9F6728</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fundacao" id="DE55A443-A6D0-BC7B-445D-BD87FBF2AFA2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>E1852698-96F8-9385-EA10-2C1D38A01337</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_estrelas" id="08178FB4-9B7B-06F1-1EEB-64FD1F718B06">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>2F7EA193-9A07-716F-392D-E57DA6BA6EC9</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="A4E3DC30-09ED-6054-8108-1C4A4C1428F1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>91CB7B0A-2F84-C166-D096-140D83E403B4</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="095837EF-4283-E0F6-01C2-107491C961CF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>E3F956DB-AE11-5A42-F905-F5C4B7251E9D</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bairro" id="5F677398-F4E4-5711-3564-60E27D915DC3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>A597FE4C-8659-C23B-389A-3D0BEAB3E79F</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60A68967-40A7-1796-ACFA-6D64E95063B1" name="T_FORNECEDOR_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>7602178A-9641-8463-F598-00FC86414A0A</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FEBF4E4-35D7-5D95-C443-4456E6DAF1C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

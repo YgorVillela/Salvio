@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94A98505-705F-DE82-8AC2-B72A77E2DDED" name="T_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>D970F4EC-85F9-76E5-039F-7487079095FB</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_produto" id="676DC094-487E-39D6-7091-D7B5A10929A1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>613956F2-E11E-3C6F-56AD-B793CF466207</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_barras" id="BD65B628-CEA2-B567-D691-0D404D9C074B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>67E6D027-8AA2-02F4-4985-883BEBA9D141</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_embalagem" id="64BB14EE-F9FE-3805-8785-C21EDB0C74A6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>E11BDED8-119E-8E37-75F8-F11D3859A602</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_produto" id="28500ACF-3683-7A03-83E5-F00EFCC4FA92">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>46E146CD-6CCC-8A68-16AB-A0C3C634CDDB</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BB42916-8A71-1F11-A397-13C8ADAFA48E" name="T_PRODUTO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>A097AF29-AF0D-C2AC-D76C-7B481CC7758C</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676DC094-487E-39D6-7091-D7B5A10929A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="891A27D7-7664-AC94-24BC-615C3A0D6223" containerWithKeyObject="A436E562-3923-9158-07C1-B85A48517916" localFKIndex="4710AFCE-4CEC-B0B8-53BF-208E3FC4C45D" name="FK_T_FORMA_PAGTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>61B4DCC6-EF92-E7EB-F710-7D5C321010C3</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<referredTableLongName>T_FORMA_PAGTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B16E6041-3AA2-386B-5DCA-E9AD26D8AF02</referredTableID>
+<keyObject>EFFE8B1D-9A61-714D-BBB3-FB73AA0E8F32</keyObject>
+<referredKeyID>EFFE8B1D-9A61-714D-BBB3-FB73AA0E8F32</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_pagto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="30C89D24-212B-C8F2-B8AE-98E1F4A32747" containerWithKeyObject="A436E562-3923-9158-07C1-B85A48517916" localFKIndex="F035D0BA-2CA2-7190-E994-0EC6884BF929" name="FK_T_COMPRA_T_TEMPO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>4570A294-0F24-632E-FB33-22C78E3780EC</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<referredTableLongName>T_TEMPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85A2F19D-D709-5800-42D9-F7AEFA7B4075</referredTableID>
+<keyObject>B41D9E5E-0871-2A60-CE8E-69D26DF40DAE</keyObject>
+<referredKeyID>B41D9E5E-0871-2A60-CE8E-69D26DF40DAE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_tempo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

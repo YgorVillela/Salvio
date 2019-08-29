@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35D118A5-BECC-9871-9618-D852B9E98713" name="T_HOSPITAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:51:02 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_hospital" id="64B0FEBA-2E50-A31B-6B72-B778EE8909CF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:55:58 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_hospital" id="CBE917E2-FB65-BE6F-E532-018131CAAAB8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:56:05 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="DEED51DA-5296-AB89-66D5-2532535756A9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:56:15 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="BE0720DE-A5CB-43FA-9A1C-D35301F6C404">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:56:34 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="5F6D63DE-A568-35BA-008D-E4950017D89E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:56:48 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_adquirida" id="21819E7A-D4D4-772A-143D-373598ED71C9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:06:22 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF290BE2-0497-980C-E136-EA67D82685EF" name="T_HOSPITAL PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:56:02 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64B0FEBA-2E50-A31B-6B72-B778EE8909CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

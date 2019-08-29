@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D970F4EC-85F9-76E5-039F-7487079095FB" name="T_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:51:29 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="613956F2-E11E-3C6F-56AD-B793CF466207">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:58:37 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_barras" id="67E6D027-8AA2-02F4-4985-883BEBA9D141">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:58:11 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_embalagem" id="E11BDED8-119E-8E37-75F8-F11D3859A602">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:58:20 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_produto" id="46E146CD-6CCC-8A68-16AB-A0C3C634CDDB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:59:29 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A097AF29-AF0D-C2AC-D76C-7B481CC7758C" name="T_PRODUTO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 11:58:18 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="1CD95EC8-CF4B-0F2E-6687-F893E3F56C84" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>613956F2-E11E-3C6F-56AD-B793CF466207</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

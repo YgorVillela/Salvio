@@ -1,0 +1,239 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A436E562-3923-9158-07C1-B85A48517916" name="T_COMPRA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>7AFA24CC-E832-A883-C8EE-DE4371A0F15B</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_compra" id="99610111-58FF-254D-C96D-1037C2EBD026">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>1A2AD9DF-DAA8-71EC-0876-9F81FAA7ED67</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FORNECEDOR_cd_fornecedor" id="50356D7D-0C19-7EF0-47BE-E17F163F3433">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>8538EE9E-189C-DC8E-86EF-4FBFDCEECC84</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30A4A844-FBC1-404B-F015-F4C6AD10C9B5" referredColumn="8FEBF4E4-35D7-5D95-C443-4456E6DAF1C2"/>
+</associations>
+</Column>
+<Column name="T_FORMA_PAGTO_cd_tipo_pagto" id="F6E2988E-B9CC-A79D-1289-59B4D575BB6C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>80A6BF4F-1A94-08DD-0885-C41691A02915</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="891A27D7-7664-AC94-24BC-615C3A0D6223" referredColumn="9012BE6B-FF0E-D2BE-324E-AE93089A6747"/>
+</associations>
+</Column>
+<Column name="T_TEMPO_sk_tempo" id="8262394C-8CDE-F1A9-5D09-FD7F3BF6FA4D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>D95F53AE-B9BA-066B-F5F6-8C89B77F9E95</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30C89D24-212B-C8F2-B8AE-98E1F4A32747" referredColumn="C1154405-FB02-39D9-12C1-4BC22AA699C5"/>
+</associations>
+</Column>
+<Column name="T_HOSPITAL_cd_hospital" id="005ED212-166F-8656-F129-4588A00B03AE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>C4F650F3-D022-6A54-D3D8-4E4A6E0888EB</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1876A7DF-BD62-11D7-ECC7-900B07F35AFF" referredColumn="9DB04B79-2824-6A7A-84E2-87CFA8D9C0CA"/>
+</associations>
+</Column>
+<Column name="T_PRODUTO_cd_produto" id="9A287A53-A7CA-5E3D-0704-4DE286BA109B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>6104B101-00F2-464A-C63F-400CD5BA4B6E</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E275720-3F2F-CE4F-1449-ADB78B32F380" referredColumn="676DC094-487E-39D6-7091-D7B5A10929A1"/>
+</associations>
+</Column>
+<Column name="vl_total" id="D9207954-17D1-CA63-FC2B-CD660F362BC6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>B3924CCD-F4E1-748D-0D95-CD74A57F835D</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_desconto" id="55B1E7EC-898C-88FE-CA3F-B9DE13841E14">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>12E92F92-24C5-05C3-A8D4-7FE1402655CC</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco" id="EABAE87D-B35D-8488-9502-A0E2F611526E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>2862CC18-8C26-A281-CE26-1AD613CEC29C</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_pct_desconto" id="ECE900F8-E3AC-9389-68E7-25559C5A12BD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>F12A354D-E181-4626-ABF6-C21FA2661893</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_imposto_pago" id="F0722B72-E9BA-908F-857B-B4A8FF41E30C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>7C33BCA6-7A5F-BFD6-18BF-C2AE7A26F5AB</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_pct_imposto_pago" id="8E5074F1-1669-8C4D-DF36-7970A3ECF427">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>40646235-80C8-5A9C-AC2B-546EE0691FE8</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E968461B-D8CC-74D8-24EA-6BAA85C1E0B0" name="T_COMPRA_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>841542D6-A825-950E-F3DC-81DE984740B4</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99610111-58FF-254D-C96D-1037C2EBD026"/>
+<colUsage columnID="8262394C-8CDE-F1A9-5D09-FD7F3BF6FA4D"/>
+<colUsage columnID="50356D7D-0C19-7EF0-47BE-E17F163F3433"/>
+<colUsage columnID="F6E2988E-B9CC-A79D-1289-59B4D575BB6C"/>
+<colUsage columnID="005ED212-166F-8656-F129-4588A00B03AE"/>
+<colUsage columnID="9A287A53-A7CA-5E3D-0704-4DE286BA109B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4710AFCE-4CEC-B0B8-53BF-208E3FC4C45D" name="FK_T_FORMA_PAGTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>61B4DCC6-EF92-E7EB-F710-7D5C321010C3</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E2988E-B9CC-A79D-1289-59B4D575BB6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C33CB88C-CA49-C9E8-AF9A-DFDBBF2D1E4E" name="FK_T_COMPRA_T_HOSPITAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>0B8AB7EE-DD6C-E831-4123-6A8B7597B992</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="005ED212-166F-8656-F129-4588A00B03AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EBE99E7-B873-EE39-A478-C21A0479DF9E" name="FK_T_COMPRA_T_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>648C62E1-A94E-35F1-1B81-4B8677FDFF5B</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A287A53-A7CA-5E3D-0704-4DE286BA109B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F035D0BA-2CA2-7190-E994-0EC6884BF929" name="FK_T_COMPRA_T_TEMPO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>4570A294-0F24-632E-FB33-22C78E3780EC</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8262394C-8CDE-F1A9-5D09-FD7F3BF6FA4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CFEE365-A939-DDB8-6281-D65B7D0AE4D0" name="FK_T_FORNECEDOR">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 12:29:56 UTC</createdTime>
+<generatorID>7BBD1864-DACD-01AE-074C-2D55C36C963D</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50356D7D-0C19-7EF0-47BE-E17F163F3433"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
